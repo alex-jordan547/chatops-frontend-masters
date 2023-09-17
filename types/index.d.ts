@@ -196,7 +196,7 @@ type NotionItem = {
 				name: string;
 			};
 		};
-		Status: {
+		status: {
 			status: {
 				name: string;
 			};
