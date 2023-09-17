@@ -27,4 +27,4 @@ const postNewNotionItemsToSlack: Handler = async () => {
     }
 }
 
-//export const handler = schedule('*/5 * * * *', postNewNotionItemsToSlack); // every 5 minutes
+export const handler = schedule('* * * * 1', postNewNotionItemsToSlack); // every Monday
